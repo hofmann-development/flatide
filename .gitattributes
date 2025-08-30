@@ -1,5 +1,5 @@
 # Use LF (Unix) for all files by default
 * text eol=lf
 
-# Leave PNGS and other binaries alone
+# Leave PNGS and other binaries as they are
 *.png binary
