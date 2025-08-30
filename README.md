@@ -45,7 +45,7 @@ Follow these steps to install and set up FlatIDE:
      # Linux/macOS
      git clone https://github.com/hofmann-development/flatide ~/.config/flatide
      ```
-4. Install FlatIDE launch scripts
+4. Install FlatIDE launcher scripts
    - Clone [flatide-launcher](https://github.com/hofmann-development/flatide-launcher) to a directory of your choice
    - Add the directory to your `PATH`
 5. Start FlatIDE and set up Windsurf/Codeium
