@@ -3,6 +3,8 @@
 FlatIDE is a lightweight development environment for FASM2 (Flat Assembler 2) built on Neovim.  
 It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integration, and Telescope for file navigation.
 
+<img src="screenshot.png" alt="FlatIDE Screenshot" width="600">
+
 ## Features
 
 - FASM2 syntax highlighting
