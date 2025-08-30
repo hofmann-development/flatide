@@ -14,6 +14,7 @@ It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integra
 ## Requirements
 
 - Neovim 0.11+ or later
+- Git
 - Windsurf/Codeium account (optional)
 
 ## License
