@@ -15,6 +15,7 @@ It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integra
 
 ## Requirements
 
+- FASM2
 - Neovim 0.11+
 - Git
 - Windsurf/Codeium account (optional)
