@@ -17,7 +17,7 @@ It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integra
 - Git
 - Windsurf/Codeium account (optional)
 
-# Installation
+## Installation
 
 TBD
 
