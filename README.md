@@ -24,7 +24,7 @@ TBD
 ## Known bugs
 
 - Windsurf/Codium server is sometimes not extracted on Windows (see [here](https://github.com/Exafunction/windsurf.vim/issues/488))
-- Telecope does not respect modlines
+- Telescope does not respect modlines
 
 ## License
 
