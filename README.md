@@ -13,7 +13,7 @@ It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integra
 
 ## Requirements
 
-- Neovim 0.11+ or later
+- Neovim 0.11+
 - Git
 - Windsurf/Codeium account (optional)
 
