@@ -11,8 +11,8 @@ It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integra
 - Minimal, high-contrast colorscheme
 - Integration with Windsurf/Codeium
 - Telescope-based file and buffer search
-- Lightweight and fast
-- Add additional plugins using lazy.nvim
+- Fast and lightweight
+- Extendable via lazy.nvim
 
 ## Requirements
 
@@ -27,22 +27,29 @@ It provides syntax highlighting, a minimal colorscheme, Windsurf/Codeium integra
 Follow these steps to install and set up FlatIDE:
 
 1. Install Neovim
-   - Download the latest Neovim release from the [official website](https://neovim.io/).
-   - On Windows: install Neovim and make sure its `bin` directory (e.g. `C:\Program Files\Neovim\bin`) is in your system `PATH`.
-   - On Linux/macOS: use your package manager (e.g. `sudo apt install neovim` or `brew install neovim`).
+   - **Windows**:  
+     Download the latest Neovim release from the [official website](https://neovim.io/).  
+     Install it and ensure that the `bin` directory (e.g. `C:\Program Files\Neovim\bin`) is in your system `PATH`.
+   - **Linux/macOS**:  
+     Install via your package manager (e.g. `sudo apt install neovim` or `brew install neovim`).
 2. Install Git
-   - On Windows: download and install [Git for Windows](https://gitforwindows.org/).
-   - On Linux: install using your package manager (e.g. `sudo apt install git`).
-   - On macOS: install Xcode or the Xcode command line tools.
-   - Verify the installation by running:
+   - **Windows**:  
+     Download and install [Git for Windows](https://gitforwindows.org/).
+   - **Linux**:  
+     Install via your package manager (e.g. `sudo apt install git`).
+   - **macOS**:  
+     Install Xcode or the Xcode command line tools.
+   - Verify installation:  
      ```sh
      git --version
      ```
 3. Install Gzip
-   - On Windows: make sure `gzip.exe` from Git for Windows is available in your system `PATH`.
-   - On Linux/macOS: Gzip is usually preinstalled.
+   - **Windows**:  
+     Ensure that `gzip.exe` from Git for Windows is available in your `PATH`.
+   - **Linux/macOS**:  
+     Gzip is usually preinstalled.
 4. Clone this repository as a Neovim configuration
-   - Neovim looks for configuration files in a directory based on the `NVIM_APPNAME` environment variable.
+   - Neovim looks for configuration files in a directory based on the `NVIM_APPNAME` environment variable.  
    - Clone this repository into your Neovim config folder with the same name as this project:
      ```sh
      # Windows (CMD)
@@ -52,10 +59,10 @@ Follow these steps to install and set up FlatIDE:
      git clone https://github.com/hofmann-development/flatide ~/.config/flatide
      ```
 5. Install FlatIDE launcher scripts
-   - Clone [flatide-launcher](https://github.com/hofmann-development/flatide-launcher) to a directory of your choice.
+   - Clone [flatide-launcher](https://github.com/hofmann-development/flatide-launcher) to a directory of your choice.  
    - Add that directory to your `PATH`.
 6. Start FlatIDE and set up Windsurf/Codeium
-   - Run the launcher script (e.g. `flatide hello.asm`).
+   - Run the launcher script (e.g. `flatide hello.asm`).  
    - Use `:Codeium Auth` to enable Codeium (optional).
 
 ## Known bugs
