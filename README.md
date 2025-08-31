@@ -40,7 +40,7 @@ Follow these steps to install and set up FlatIDE:
      git --version
      ```
 3. Install Gzip
-   - **Windows**: Ensure that `gzip.exe` from Git for Windows is available in your `PATH`.  
+   - **Windows**: Ensure that `gzip.exe` from Git for Windows is available in your system `PATH`.  
    - **Linux/macOS**: Gzip is usually preinstalled.
 4. Clone this repository as a Neovim configuration
    - Neovim looks for configuration files in a directory based on the `NVIM_APPNAME` environment variable.  
