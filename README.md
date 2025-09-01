@@ -44,7 +44,7 @@ Follow these steps to install and set up FlatIDE:
    - **Windows**: Ensure that `gzip.exe` from Git for Windows is available in your system `PATH`.
    - **Linux**: Gzip is usually preinstalled.
 5. Install ripgrep
-   - **Windows**: Download the latest release from [GitHub](https://github.com/BurntSushi/ripgrep/releases) and put it in your `PATH`.
+   - **Windows**: Download the latest release from [GitHub](https://github.com/BurntSushi/ripgrep/releases) and add it to your `PATH`.
    - **Linux**: Install via your package manager (e.g. `sudo apt install ripgrep`).
 6. Clone this repository as a Neovim configuration
    - Neovim looks for configuration files in a directory based on the `NVIM_APPNAME` environment variable.
