@@ -51,7 +51,7 @@ Follow these steps to install and set up FlatIDE:
    - Clone this repository into your Neovim config folder with the same name as this project:
      ```sh
      # Windows (CMD)
-     git clone https://github.com/hofmann-development/flatide %USERPROFILE%\flatide
+     git clone https://github.com/hofmann-development/flatide %USERPROFILE%\AppData\Local\flatide
 
      # Linux
      git clone https://github.com/hofmann-development/flatide ~/.config/flatide
